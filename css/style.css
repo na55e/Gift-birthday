@@ -46,10 +46,10 @@ h1, h2, h3, h4, p {
     border-radius: 10px;
     background-image: url("/images/gift-cover.jpg");
     background-size: cover;
-
+    cursor: pointer;
     margin: 20px auto;
 }
-.gift-cover:hover {
+.gift-cover:active {
     background-image: url("/images/giphy.webp");
 }
 
